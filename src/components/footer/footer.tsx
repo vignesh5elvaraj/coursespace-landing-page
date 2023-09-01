@@ -19,7 +19,8 @@ const Footer: FC = () => {
                 FiliBot
               </Typography>
               <Typography variant="subtitle1" sx={{ letterSpacing: 1, mb: 2 }}>
-                FiliBot is an online learning platform that has been operating since 2018 until now.
+                Online assessment tool powered by AI called FiliBot. TardiVerse Tech Partner. Filix School of Education
+                is a content partner.
               </Typography>
               <FooterSocialLinks />
             </Box>

@@ -19,15 +19,19 @@ interface ExpItemProps {
 const exps: Array<Exp> = [
   {
     label: 'Students',
-    value: '10K+',
+    value: '3K+',
   },
   {
-    label: 'Quality Course',
+    label: 'Quality Assessment',
     value: '20+',
   },
   {
-    label: 'Experience Mentors',
-    value: '10+',
+    label: 'Increased Results',
+    value: '100%',
+  },
+  {
+    label: 'Questions',
+    value: '2k+',
   },
 ]
 
@@ -138,7 +142,7 @@ const HomeHero: FC = () => {
               <Box sx={{ mb: 4, width: { xs: '100%', md: '70%' } }}>
                 <Typography sx={{ color: 'text.secondary', lineHeight: 1.6 }}>
                   {
-                    "Let's take an online course to improve your skills in a different way, you can set your own study time according to your learning speed. So you san study comfortable and absorb tge material easily."
+                    'Unlock the future of learning with our AI-powered EdTech chat bot Seamlessly enhance your education experience with our AI EdTech chat bot'
                   }
                 </Typography>
               </Box>
@@ -194,10 +198,10 @@ const HomeHero: FC = () => {
                   component="h6"
                   sx={{ color: 'secondary.main', fontSize: '1.1rem', fontWeight: 700, mb: 0.5 }}
                 >
-                  Certificate
+                  FiliBot
                 </Typography>
                 <Typography variant="subtitle1" sx={{ color: 'text.secondary', lineHeight: 1.3 }}>
-                  There are certificates for all courses.
+                  Filibot can Train you in all Subjects
                 </Typography>
               </Box>
             </Box>
