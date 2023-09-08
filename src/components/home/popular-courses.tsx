@@ -18,6 +18,7 @@ interface SliderArrowArrow {
   className?: 'string'
 }
 
+console.log(data)
 const SliderArrow: FC<SliderArrowArrow> = (props) => {
   const { onClick, type, className } = props
   return (

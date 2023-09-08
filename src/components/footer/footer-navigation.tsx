@@ -5,6 +5,7 @@ import MuiLink from '@mui/material/Link'
 import type { Navigation } from '@/interfaces/navigation'
 import { navigations as headerNavigations } from '@/components/navigation/navigation.data'
 import { FooterSectionTitle } from '@/components/footer'
+import { Typography } from '@mui/material'
 
 const courseMenu: Array<Navigation> = [
   {
@@ -28,7 +29,6 @@ const courseMenu: Array<Navigation> = [
 const pageMenu = headerNavigations
 
 const companyMenu: Array<Navigation> = [
-  { label: 'Contact Us', path: '#' },
   { label: 'Privacy & Policy', path: '#' },
   { label: 'Term & Condition', path: '#' },
   { label: 'FAQ', path: '#' },
@@ -59,23 +59,18 @@ const NavigationItem: FC<NavigationItemProps> = ({ label, path }) => {
 const FooterNavigation: FC = () => {
   return (
     <Grid container spacing={2}>
-      <Grid item xs={12} md={4}>
-        <FooterSectionTitle title="Course" />
-        {courseMenu.map(({ label, path }, index) => (
-          <NavigationItem key={index + path} label={label} path={/* path */ '#'} />
-        ))}
-      </Grid>
-      <Grid item xs={12} md={4}>
-        <FooterSectionTitle title="Menu" />
-        {pageMenu.map(({ label, path }, index) => (
-          <NavigationItem key={index + path} label={label} path={path} />
-        ))}
-      </Grid>
-      <Grid item xs={12} md={4}>
+      <Grid item xs={12} md={5}>
         <FooterSectionTitle title="About" />
         {companyMenu.map(({ label, path }, index) => (
           <NavigationItem key={index + path} label={label} path={path} />
         ))}
+      </Grid>
+      <Grid item xs={12} md={6} spacing={4}>
+        <FooterSectionTitle title="Contact Us" />
+        <Typography>
+          Email : connect@tardiverse.com
+        </Typography>
+        <Typography >Phone : +91 98402 97628</Typography>
       </Grid>
     </Grid>
   )

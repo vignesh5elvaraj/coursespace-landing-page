@@ -19,8 +19,7 @@ const Footer: FC = () => {
                 FiliBot
               </Typography>
               <Typography variant="subtitle1" sx={{ letterSpacing: 1, mb: 2 }}>
-                Online assessment tool powered by AI called FiliBot. TardiVerse Tech Partner. Filix School of Education
-                is a content partner.
+                 Introducing FiliBot, the cutting-edge online tool, driven by the power of AI, in collaboration with TardiVerse Tech Partner. Additionally, Filix School of Education joins us as a distinguished content partner, elevating the quality and depth of educational resources available through this innovative platform.
               </Typography>
               <FooterSocialLinks />
             </Box>

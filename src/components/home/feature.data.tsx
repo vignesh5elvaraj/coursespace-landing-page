@@ -27,18 +27,8 @@ export const data: Data[] = [
   },
   {
     title: 'Education made fun',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    description: 'Experience the magic of learning as it comes to life, seamlessly merging education with entertainment, making the process not just informative but truly enjoyable.',
     icon: <LocalLibraryIcon />,
-  },
-  {
-    title: 'Independence to knowledge',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
-    icon: <Psychology />,
-  },
-  {
-    title : 'Time Flexibility',
-    description : 'Our platform offers the flexibility to study at your own pace and on your schedule, empowering you to balance your education with your busy life.',
-    icon : <AccessTime />
   },
   {
     title : '24/7 Guidance and Mentorship',
