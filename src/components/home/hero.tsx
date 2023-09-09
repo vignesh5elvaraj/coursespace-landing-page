@@ -26,10 +26,6 @@ const exps: Array<Exp> = [
     value: '20+',
   },
   {
-    label: 'Increased Results',
-    value: '100%',
-  },
-  {
     label: 'Questions',
     value: '2k+',
   },

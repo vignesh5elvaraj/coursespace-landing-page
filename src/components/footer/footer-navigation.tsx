@@ -30,7 +30,7 @@ const pageMenu = headerNavigations
 
 const companyMenu: Array<Navigation> = [
   { label: 'Privacy & Policy', path: '#' },
-  { label: 'Term & Condition', path: '#' },
+  { label: 'Terms & Condition', path: '#' },
   { label: 'FAQ', path: '#' },
 ]
 
