@@ -4,24 +4,16 @@ import Link from '@mui/material/Link'
 import { SocialLink } from '@/interfaces/social-link'
 
 export const socialLinks: SocialLink[] = [
-  {
-    name: 'Instagram',
-    link: '#',
-    icon: '/images/icons/instagram.svg',
-  },
+  
   {
     name: 'YouTube',
     link: 'https://www.youtube.com/results?search_query=nanritam',
     icon: '/images/icons/youtube.svg',
   },
-  {
-    name: 'Twitter',
-    link: '#',
-    icon: '/images/icons/twitter.svg',
-  },
+ 
   {
     name: 'Website',
-    link: '#',
+    link: 'https://nanritam.org/',
     icon: '/images/icons/dribbble.svg',
   },
  
