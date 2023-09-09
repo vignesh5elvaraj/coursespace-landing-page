@@ -22,7 +22,7 @@ const Footer: FC = () => {
                 Introducing FILIBOT! An AI  powered online chatbot for effortless access to new age education. Brought to you by TARDI-FILIX, tech partner TardiVerse and educational partner Filix school of education.
               </Typography>
               <Typography variant="subtitle1" sx={{ letterSpacing: 1, mb: 2 }}>
-              Let's step into new era and innovative ways of education.
+               Let's step into new era and innovative ways of education.
               </Typography>
               <FooterSocialLinks />
             </Box>
