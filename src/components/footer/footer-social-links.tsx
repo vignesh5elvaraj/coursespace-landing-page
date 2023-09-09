@@ -11,7 +11,7 @@ export const socialLinks: SocialLink[] = [
   },
   {
     name: 'YouTube',
-    link: '#',
+    link: 'https://www.youtube.com/results?search_query=nanritam',
     icon: '/images/icons/youtube.svg',
   },
   {
@@ -20,15 +20,11 @@ export const socialLinks: SocialLink[] = [
     icon: '/images/icons/twitter.svg',
   },
   {
-    name: 'Dribbble',
-    link: 'https://dribbble.com/shots/18114471-Coursespace-Online-Course-Landing-Page',
+    name: 'Website',
+    link: '#',
     icon: '/images/icons/dribbble.svg',
   },
-  {
-    name: 'Github',
-    link: 'https://github.com/hiriski/coursespace-landing-page',
-    icon: '/images/icons/github.svg',
-  },
+ 
 ]
 
 interface SocialLinkItemProps {
