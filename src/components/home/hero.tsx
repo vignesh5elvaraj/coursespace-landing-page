@@ -139,16 +139,20 @@ sx={{
   </Typography>
   </Box>
   <Box sx={{ '& button': { mr: 2 } }}>
-    <ScrollLink to="popular-course" spy={true} smooth={true} offset={0} duration={350}>
+    {/* <ScrollLink to="popular-course" spy={true} smooth={true} offset={0} duration={350}> */}
+    <a href = "https://chat.filibot.org" target='_blank' style={{color : "#fff", textDecoration : "none"}}>
       <StyledButton color="primary" size="large" variant="contained">
-        Get Started
+       Get Started
       </StyledButton>
-    </ScrollLink>
-    <ScrollLink to="video-section" spy={true} smooth={true} offset={0} duration={350}>
+    </a>
+    {/* </ScrollLink> */}
+    {/* <ScrollLink to="video-section" spy={true} smooth={true} offset={0} duration={350}> */}
+    <a href = "https://www.youtube.com/results?search_query=nanritam" target='_blank' style={{color : "#127C71", textDecoration : "none"}}>
       <StyledButton color="primary" size="large" variant="outlined" startIcon={<PlayArrowIcon />}>
         Watch Video
       </StyledButton>
-    </ScrollLink>
+    </a>
+    {/* </ScrollLink> */}
   </Box>
 </Box>
 </Grid>
